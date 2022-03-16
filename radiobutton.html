@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+  p{
+    font-size: 20px; 
+  }
+  label
+  {
+      font-size: 20px;
+  }
+  button{
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 12px;
+          border: none;
+          width:100px;
+          cursor: pointer;
+          border-radius: 4px;
+        }
+        
+        button :hover {
+          background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+    <form >
+        <p>Please select your empolyee type:</p>
+        <input type="radio" id="salaried_id" name="salaried" value="salaried">
+        <label for="salaried_id">salaried</label><br>
+        <input type="radio" id="business_id" name="business" value="business">
+        <label for="business_id">own business</label><br>  
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</body>
+</html>

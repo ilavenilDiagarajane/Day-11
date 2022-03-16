@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Homemade+Apple&family=Lexend+Deca:wght@100;200;300;400;600&family=Meie+Script&family=Mr+Dafoe&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+      <style>
+         .container{
+         background-color:grey;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height:100vh;
+         }
+         .titlecontainer{
+         border:solid #0d0e0d;
+         height:500px;
+         width: 700px;
+         background-color: white;
+         }
+         .title{
+         background-color: rgb(245, 11, 11);
+         text-align: center;
+         margin-left: 10px;
+         margin-right: 10px;
+         color: white;
+         }
+         .label{
+         display: flex;
+         justify-content:space-between;
+         }
+         .label2{
+         display: flex-start;
+         padding-left: 15px;
+         }
+         .text-box > input{
+         width:45%;
+         }
+         .text-box{
+         display:flex;
+         justify-content: space-evenly;
+         }
+         .subscribe{
+         font-weight:bold;
+         padding: 15px;
+         }
+         .leter{
+         font-style: italic;
+         }
+         .citylabel{
+         padding-left: 15px;
+         display:flex;
+         justify-content:space-between;
+         }
+         .state{
+         padding-right:20px;
+         }
+         .zip{
+         padding-right:150px;
+         }
+         .first{
+         padding-left: 0px;
+         margin-top: 0px;
+         }
+         .last{
+         padding-right: 100px;
+         margin-top: 0px;
+         }
+         .frname{
+         border: 0 none #ccc;
+         border-top:2px solid black;
+         width: 200px;
+         margin-top: -20px;
+         margin-left: 15px;
+         }
+         .lsname{
+         border: 0 none #ccc;
+         border-top:2px solid black;
+         width: 200px;
+         border-left: 15px;
+         margin-top: -20px;
+         margin-right: 25px;
+         }
+         .adlabel{
+         order: 0 none #ccc;
+         border-top:2px solid black;
+         width: 440px;
+         border-left: 15px;
+         margin-top: -20px;
+         margin-right: 25px;
+         }
+         .clabel{
+         order: 0 none #ccc;
+         border-top:2px solid black;
+         width: 180px;
+         border-left: 15px;
+         margin-top: 0px;
+         margin-right: 25px;
+         }
+         .slabel{
+         order: 0 none #ccc;
+         border-top:2px solid black;
+         width: 85px;
+         border-left: 15px;
+         margin-top: 0px;
+         margin-right: 25px;
+         }
+         .zlabel{
+         order: 0 none #ccc;
+         border-top:2px solid black;
+         width: 9px;
+         border-left: 15px;
+         margin-top:0px;
+         margin-right: 70px;
+         }
+         .firstname{
+         display: flex;
+         justify-content: space-between;
+         font-family: 'Homemade Apple', cursive;
+         font-weight: bold;
+         font-size: 18px;
+         padding-left:70px;
+         padding-right: 50px;
+         }
+         .address{
+         font-family: 'Homemade Apple', cursive;
+         font-weight: bold;
+         font-size: 20px;
+         padding-left:100px;
+         }
+         .city{
+         font-family: 'Homemade Apple',cursive;
+         font-weight:bold;
+         font-size: 20px;
+         display: flex;
+         justify-content: space-between;
+         }
+         .name{
+         padding-left:40px;
+         margin-bottom:0px;
+         }
+         .statename{
+         padding-right:0px;
+         margin-bottom:0px;
+         }
+         .zigname{
+         padding-right:120px;
+         margin-bottom:0px;
+         }
+      </style>
+   </head>
+   <body class="container" >
+      <div class = "titlecontainer">
+      <div class = "title">
+         <h3>Yes! I want to subscribe to <span class=leter>Mag-O-Zine</span></h3>
+      </div>
+      <div class="firstname">
+         <p>Joe</p>
+         <p>Schmeqeggie</p>
+      </div>
+      <div class = "label" >
+         <div class="frname">
+            <p class = "first">First Name</p>
+         </div>
+         <div class="lsname">
+            <p class = "last">Last Name</p>
+         </div>
+      </div>
+      <div class = "label2">
+         <p class = "Address">1001 Washington Street</p>
+         <p class="adlabel">Address</p>
+      </div>
+      <div>
+         <div class="city">
+            <p class="name">Aulown</P>
+            <p class="statename">CA</p>
+            <p class="zigname">ggggg</p>
+         </div>
+         <div class="citylabel">
+            <p class="clabel">City</p>
+            <p class="state slabel">State</p>
+            <p class="zip zlabel">Zip</p>
+         </div>
+         <div class="subscribe">
+            <div>
+               <p>Subscribe for:<input type="checkbox" id="Computer-Zine" name="Computer-Zine"
+                  checked>
+                  <label for="Computer-Zine"> 1year($19.95)</label>
+                  <input type="checkbox" id="Computer-Zine" name="Computer-Zine">
+                  <label for="Computer-Zine"> 2years($35.00) </label>
+               </p>
+            </div>
+            <div>Sent me more information about</div>
+            <div>
+               <input type="checkbox" id="Computer-Zine" name="Computer-Zine"
+                  checked>
+               <label for="Computer-Zine">Computer-Zine</label>
+            </div>
+            <div> <input type="checkbox" id="Fishing-Zine" name="Fishing-Zine">
+               <label for="Fishing-Zine">Fishing-Zine</label>
+            </div>
+            <div> <input type="checkbox" id="Cat-O-Zine" name="Cat-O-Zine"
+               checked>
+               <label for="Cat-O-Zine">Cat-O-Zine</label>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
